@@ -1,48 +1,58 @@
 let myQuestions = [
   {
-    question: "What is 10/2?",
+    question: `Na frase, "This time I'm gonna study harder", o que HARDER significa?`,
     answers: {
-      a: "3",
-      b: "5",
-      c: "115",
-    },
-    correctAnswer: "b",
-  },
-  {
-    question: "What is 30/3?",
-    answers: {
-      a: "3",
-      b: "5",
-      c: "10",
+      a: "Dificil",
+      b: "Duro",
+      c: "Mais",
+      d: "Severo",
+      e: "Forte",
     },
     correctAnswer: "c",
   },
   {
-    question: "What is 30/3?",
+    question: `O que significa "I am going to travel"?`,
     answers: {
-      a: "3",
-      b: "5",
-      c: "10",
+      a: "Vou ao shopping",
+      b: "Eu vou ir brincar",
+      c: "Estou indo ao mercado",
+      d: "Eu vou viajar",
+      e: "Eu fui a praia",
+    },
+    correctAnswer: "d",
+  },
+  {
+    question: `If you're hungry there ______ pizza in the fridge.`,
+    answers: {
+      a: "Is some",
+      b: "is any",
+      c: "Are some",
+      d: "are any",
+      e: "N/A",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: "Complete: Did you ___ your homework?",
+    answers: {
+      a: "Done",
+      b: "Do",
+      c: "Make",
+      d: "Made",
+      e: "Did",
     },
     correctAnswer: "c",
   },
   {
-    question: "What is 30/3?",
+    question: "O que a expressão which one significa?",
     answers: {
-      a: "3",
-      b: "5",
-      c: "10",
+      a: "O que",
+      b: "Na qual",
+      c: "Para um",
+      d: "Para que",
+      e: "Qual",
     },
-    correctAnswer: "c",
-  },
-  {
-    question: "What is 30/3?",
-    answers: {
-      a: "3",
-      b: "5",
-      c: "10",
-    },
-    correctAnswer: "c",
+    correctAnswer: "a",
   },
 ];
 
