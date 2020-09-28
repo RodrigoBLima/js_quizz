@@ -1,50 +1,50 @@
 let myQuestions = [
-    {
-      question: "What is 10/2?",
-      answers: {
-        a: "3",
-        b: "5",
-        c: "115",
-      },
-      correctAnswer: "b",
+  {
+    question: `"Digimon Frontier" Foi qual temporada do anime "Digimon"?`,
+    answers: {
+      a: "4º Temporada",
+      b: "3º Temporada",
+      c: "5º Temporada",
     },
-    {
-      question: "What is 30/3?",
-      answers: {
-        a: "3",
-        b: "5",
-        c: "10",
-      },
-      correctAnswer: "c",
+    correctAnswer: "a",
+  },
+  {
+    question: "No anime, Ichigo Kurosaki apenas virou Ceifeiro de almas Por causa que ele sem querer Roubou os poderes de...",
+    answers: {
+      a: "Renji Abrai",
+      b: "Capitão Toshiro",
+      c: "Rukia Kuchiki",
     },
-    {
-      question: "What is 30/3?",
-      answers: {
-        a: "3",
-        b: "5",
-        c: "10",
-      },
-      correctAnswer: "c",
+    correctAnswer: "c",
+  },
+  {
+    question: "Naruto Habita o espírito de qual Bijuu dentro de seu Corpo?",
+    answers: {
+      a: "Kyuubi",
+      b: "Hachibi",
+      c: "Shukaku",
     },
-    {
-      question: "What is 30/3?",
-      answers: {
-        a: "3",
-        b: "5",
-        c: "10",
-      },
-      correctAnswer: "c",
+    correctAnswer: "a",
+  },
+  {
+    question: "Death Note é o nome de um caderno com poderes Capazes de...",
+    answers: {
+      a: "Matar qualquer humano que tocá-lo",
+      b: "Matar qualquer humano que tiver escrito o nome",
+      c: "Fazer contato com aliens",
     },
-    {
-      question: "What is 30/3?",
-      answers: {
-        a: "3",
-        b: "5",
-        c: "10",
-      },
-      correctAnswer: "c",
+    correctAnswer: "b",
+  },
+  {
+    question: "Yu-Yu Hakusho: Nas Alternativas a baixo, está o nome dos personagens do anime, que são...",
+    answers: {
+      a: "Naruto, Sasuke e Sakura",
+      b: "Ichigo, Rukia, Uryu",
+      c: "Kurama, Kazuma, Yusuke",
     },
-  ];
+    correctAnswer: "c",
+  },
+];
   
   let quizContainer = document.getElementById("quiz");
   let resultsContainer = document.getElementById("results");
