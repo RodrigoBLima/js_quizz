@@ -15,6 +15,7 @@ let myQuestions = [
       a: "Leonardo Snart",
       b: "Leonard Snart ",
       c: "Leonard Snaiti",
+      d: "N/A",
     },
     correctAnswer: "b",
   },

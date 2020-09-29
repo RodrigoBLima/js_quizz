@@ -9,7 +9,7 @@ let myQuestions = [
     correctAnswer: "a",
   },
   {
-    question: "No anime, Ichigo Kurosaki apenas virou Ceifeiro de almas Por causa que ele sem querer Roubou os poderes de...",
+    question: `No anime, Ichigo Kurosaki apenas virou Ceifeiro de almas <br> Por causa que ele sem querer Roubou os poderes de...`,
     answers: {
       a: "Renji Abrai",
       b: "Capitão Toshiro",
