@@ -1,0 +1,17 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #0077b5;
+    color: white;
+    font-size: 16px;
+  }
+
+  .header a{
+    height: 3.2rem;
+    transition: opacity 0.2s;
+
+  }
+
+  .header a:hover {
+    opacity: 0.6;
+  }
