@@ -81,7 +81,7 @@ input {
   font-weight: 600;
 }
 .answers {
-  margin: 20px 0px;
+  margin: 6px 0px;
 }
 .check {
   width: 17px;
@@ -89,4 +89,40 @@ input {
   position: relative;
   border-radius: 50%;
   transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.btn{
+  color: #fff;
+  cursor: pointer;
+  /* // display: block; */
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  
+}
+.button {
+  width: 89px;
+  height: 60px;
+  background: #007bff;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(90%);
 }
