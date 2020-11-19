@@ -1,0 +1,965 @@
+----------------- HTML -----------------
+
+********************** INDEX ********************
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <!-- CSS IMPORTS -->
+    
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <nav class="header">
+        <a href="login.html" >Login</a>
+        <a href="register.html" >Register</a>
+        <a href="contact.html" >Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <a href="quizz_ing.html">
+                <button class="button">Inglês</button>
+            </a>
+            <a href="quizz_anime.html">
+                <button class="button">Animes</button>
+            </a>
+            <a href="quizz_serie.html">
+                <button class="button">Séries</button>
+            </a>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
+********************** REGISTER ********************
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz - Register</title>
+
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="form-container">
+        <section class="form">
+            <img class="logo"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.multivet.com%2Fassets%2Fdocuments%2Fquiz.png&f=1&nofb=1"
+                alt="logo" />
+            <form>
+                <h1>Faça o seu Registro</h1>
+
+                <input placeholder="Digite o seu email" />
+                <input placeholder="Digite sua senha" type="password" />
+                <button class="button" type="submit">Cadastrar</button>
+
+                <a href="login.html" class="back-link">
+                    Possui cadastro ?
+                </a>
+            </form>
+        </section>
+        <img src="" alt="" />
+</body>
+
+</html>
+********************** LOGIN ********************
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz - Login</title>
+
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="form-container">
+        <section class="form">
+            <img class="logo"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.multivet.com%2Fassets%2Fdocuments%2Fquiz.png&f=1&nofb=1"
+                alt="logo" 
+            />
+            <form>
+                <h1>Faça o seu Login</h1>
+
+                <input placeholder="Digite o seu email" />
+                <button class="button" type="submit">Entrar</button>
+
+                <a href="register.html" class="back-link">
+                    Não tenho cadastro
+                </a>
+            </form>
+
+        </section>
+
+</body>
+
+</html>
+********************** CONTACT ********************
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <!-- CSS IMPORTS -->
+
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <nav class="header">
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="content.html">Contact</a>
+    </nav>
+    <div class="form-container">
+        <form class="form">
+            <section class="container">
+                <div class="content">
+                    <input type="text" value="" name="name" class="" placeholder="Digite seu nome" id="" />
+                    <input type="email" value="" name="email" class="" placeholder="Digite o seu email" id="" />
+
+                    <textarea rows="4" cols="50" placeholder="Digite sua mensagem aqui">
+
+                    </textarea>
+
+                    <button class="button">Enviar</button>
+                </div>
+            </section>
+        </form>
+    </div>
+
+</body>
+
+</html>
+********************** ANIME ********************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz anime</title>
+    <!-- CSS IMPORTS -->
+    <link rel="stylesheet" href="global.css"></link>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+
+            <h2 class="title">Quizz</h2>
+
+            <div id="quiz"></div>
+            <button id="submit">Get Results</button>
+            <div id="results"></div>
+    
+        </div>
+        
+    </div>
+
+</body>
+
+<!-- SCRIPTS -->
+<script src="quizz_anime.js"></script>
+<!-- END SCRIPTS -->
+</html>
+********************** SERIES ********************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series Quizz</title>
+    <!-- CSS IMPORTS -->
+    <link rel="stylesheet" href="global.css"></link>
+</head>
+<body>
+  
+    <div class="container">
+        <div class="content">
+
+            <h2 class="title">Quizz</h2>
+
+            <div id="quiz"></div>
+            <button id="submit">Get Results</button>
+            <div id="results"></div>
+    
+        </div>
+        
+    </div>
+
+</body>
+
+<!-- SCRIPTS -->
+<script src="quizz_serie.js"></script>
+<!-- END SCRIPTS -->
+</html>
+********************** INGLES ********************
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <!-- CSS IMPORTS -->
+    <link rel="stylesheet" href="global.css"></link>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+
+            <h2 class="title">Quizz</h2>
+
+            <div id="quiz"></div>
+            <button id="submit">Get Results</button>
+            <div id="results"></div>
+    
+        </div>
+        
+    </div>
+
+</body>
+
+<!-- SCRIPTS -->
+<script src="quizz_ing.js"></script>
+<!-- END SCRIPTS -->
+
+</html>
+
+----------------- JAVASCRIPT -----------------
+
+********************** ANIME JS ********************
+let myQuestions = [
+  {
+    question: `"Digimon Frontier" Foi qual temporada do anime "Digimon"?`,
+    answers: {
+      a: "4º Temporada",
+      b: "3º Temporada",
+      c: "5º Temporada",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: `No anime, Ichigo Kurosaki apenas virou Ceifeiro de almas <br> Por causa que ele sem querer Roubou os poderes de...`,
+    answers: {
+      a: "Renji Abrai",
+      b: "Capitão Toshiro",
+      c: "Rukia Kuchiki",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question: "Naruto Habita o espírito de qual Bijuu dentro de seu Corpo?",
+    answers: {
+      a: "Kyuubi",
+      b: "Hachibi",
+      c: "Shukaku",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: "Death Note é o nome de um caderno com poderes Capazes de...",
+    answers: {
+      a: "Matar qualquer humano que tocá-lo",
+      b: "Matar qualquer humano que tiver escrito o nome",
+      c: "Fazer contato com aliens",
+    },
+    correctAnswer: "b",
+  },
+  {
+    question: "Yu-Yu Hakusho: Nas Alternativas a baixo, está o nome dos personagens do anime, que são...",
+    answers: {
+      a: "Naruto, Sasuke e Sakura",
+      b: "Ichigo, Rukia, Uryu",
+      c: "Kurama, Kazuma, Yusuke",
+    },
+    correctAnswer: "c",
+  },
+];
+  
+  let quizContainer = document.getElementById("quiz");
+  let resultsContainer = document.getElementById("results");
+  let submitButton = document.getElementById("submit");
+  
+  generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+  
+  function generateQuiz(
+    questions,
+    quizContainer,
+    resultsContainer,
+    submitButton
+  ) {
+    function showQuestions(questions, quizContainer) {
+      // we'll need a place to store the output and the answer choices
+      let output = [];
+      let answers;
+  
+      // for each question...
+      for (let i = 0; i < questions.length; i++) {
+        // first reset the list of answers
+        answers = [];
+  
+        // for each available answer...
+        for (letter in questions[i].answers) {
+          // ...add an html radio button
+          answers.push(
+            "<label>" +
+              '<input type="radio" class="check" name="question' +
+              i +
+              '" value="' +
+              letter +
+              '">' +
+              letter +
+              ": " +
+              questions[i].answers[letter] +
+              "</label></br>"
+          );
+        }
+  
+        // add this question and its answers to the output
+        output.push(
+          '<div class="question">' +
+            questions[i].question +
+            "</div>" +
+            '<div class="answers">' +
+            answers.join("") +
+            "</div>"
+        );
+      }
+  
+      // finally combine our output list into one string of html and put it on the page
+      quizContainer.innerHTML = output.join("");
+    }
+  
+    function showResults(questions, quizContainer, resultsContainer) {
+      // gather answer containers from our quiz
+      let answerContainers = quizContainer.querySelectorAll(".answers");
+  
+      // keep track of user's answers
+      let userAnswer = "";
+      let numCorrect = 0;
+  
+      // for each question...
+      for (let i = 0; i < questions.length; i++) {
+        // find selected answer
+        userAnswer = (
+          answerContainers[i].querySelector(
+            "input[name=question" + i + "]:checked"
+          ) || {}
+        ).value;
+  
+        // if answer is correct
+        if (userAnswer === questions[i].correctAnswer) {
+          // add to the number of correct answers
+          numCorrect++;
+  
+          // color the answers green
+          answerContainers[i].style.color = "#66ff66";
+        }
+        // if answer is wrong or blank
+        else {
+          // color the answers red
+          answerContainers[i].style.color = "#ff4d4d";
+        }
+      }
+  
+      // show number of correct answers out of total
+      resultsContainer.innerHTML = numCorrect + " out of " + questions.length;
+    }
+  
+    // show questions right away
+    showQuestions(questions, quizContainer);
+  
+    // on submit, show results
+    submitButton.onclick = function () {
+      showResults(questions, quizContainer, resultsContainer);
+    };
+  }
+  
+********************** SERIES JS ********************
+let myQuestions = [
+  {
+    question: "Friends: Qual o nome do café muito visitado pelos 6 amigos?",
+    answers: {
+      a: "Central Perk",
+      b: "Coffe Central",
+      c: "Central Park",
+      d: "Coffe Bar",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: "Legends of Tomorrow: Qual é o nome da pessoa que morreu na primeira temporada?",
+    answers: {
+      a: "Leonardo Snart",
+      b: "Leonard Snart ",
+      c: "Leonard Snaiti",
+      d: "N/A",
+    },
+    correctAnswer: "b",
+  },
+  {
+    question: "Legends of Tomorrow: Qual o nome da lenda que já foi uma assasina?",
+    answers: {
+      a: "Sara Lance",
+      b: "Micke Rory",
+      c: "Sarah Lance",
+      d: "Mique Roury",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question: "Supernatural: Quem matou a Mary pela primeira vez em supernatural?",
+    answers: {
+      a: "Azazel",
+      b: "Lúcifer",
+      c: "Gabriel",
+      d: "Miguel",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: "Supernatural: Como Jo e Ellen morreram?",
+    answers: {
+      a: "Crowley as matou",
+      b: "Em uma explosão",
+      c: "Um demônio",
+      d: "Um fantasma",
+    },
+    correctAnswer: "b",
+  },
+];
+
+let quizContainer = document.getElementById("quiz");
+let resultsContainer = document.getElementById("results");
+let submitButton = document.getElementById("submit");
+
+generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+
+function generateQuiz(
+  questions,
+  quizContainer,
+  resultsContainer,
+  submitButton
+) {
+  function showQuestions(questions, quizContainer) {
+    // we'll need a place to store the output and the answer choices
+    let output = [];
+    let answers;
+
+    // for each question...
+    for (let i = 0; i < questions.length; i++) {
+      // first reset the list of answers
+      answers = [];
+
+      // for each available answer...
+      for (letter in questions[i].answers) {
+        // ...add an html radio button
+        answers.push(
+          "<label>" +
+            '<input type="radio" class="check" name="question' +
+            i +
+            '" value="' +
+            letter +
+            '">' +
+            letter +
+            ": " +
+            questions[i].answers[letter] +
+            "</label></br>"
+        );
+      }
+
+      // add this question and its answers to the output
+      output.push(
+        '<div class="question">' +
+          questions[i].question +
+          "</div>" +
+          '<div class="answers">' +
+          answers.join("") +
+          "</div>"
+      );
+    }
+
+    // finally combine our output list into one string of html and put it on the page
+    quizContainer.innerHTML = output.join("");
+  }
+
+  function showResults(questions, quizContainer, resultsContainer) {
+    // gather answer containers from our quiz
+    let answerContainers = quizContainer.querySelectorAll(".answers");
+
+    // keep track of user's answers
+    let userAnswer = "";
+    let numCorrect = 0;
+
+    // for each question...
+    for (let i = 0; i < questions.length; i++) {
+      // find selected answer
+      userAnswer = (
+        answerContainers[i].querySelector(
+          "input[name=question" + i + "]:checked"
+        ) || {}
+      ).value;
+
+      // if answer is correct
+      if (userAnswer === questions[i].correctAnswer) {
+        // add to the number of correct answers
+        numCorrect++;
+
+        // color the answers green
+        answerContainers[i].style.color = "#66ff66";
+      }
+      // if answer is wrong or blank
+      else {
+        // color the answers red
+        answerContainers[i].style.color = "#ff4d4d";
+      }
+    }
+
+    // show number of correct answers out of total
+    resultsContainer.innerHTML = numCorrect + " out of " + questions.length;
+  }
+
+  // show questions right away
+  showQuestions(questions, quizContainer);
+
+  // on submit, show results
+  submitButton.onclick = function () {
+    showResults(questions, quizContainer, resultsContainer);
+  };
+}
+
+********************** INGLES JS ********************
+let myQuestions = [
+  {
+    question: `Na frase, "This time I'm gonna study harder", o que HARDER significa?`,
+    answers: {
+      a: "Dificil",
+      b: "Duro",
+      c: "Mais",
+      d: "Severo",
+      e: "Forte",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question: `O que significa "I am going to travel"?`,
+    answers: {
+      a: "Vou ao shopping",
+      b: "Eu vou ir brincar",
+      c: "Estou indo ao mercado",
+      d: "Eu vou viajar",
+      e: "Eu fui a praia",
+    },
+    correctAnswer: "d",
+  },
+  {
+    question: `If you're hungry there ______ pizza in the fridge.`,
+    answers: {
+      a: "Is some",
+      b: "is any",
+      c: "Are some",
+      d: "are any",
+      e: "N/A",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: "Complete: Did you ___ your homework?",
+    answers: {
+      a: "Done",
+      b: "Do",
+      c: "Make",
+      d: "Made",
+      e: "Did",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question: "O que a expressão which one significa?",
+    answers: {
+      a: "O que",
+      b: "Na qual",
+      c: "Para um",
+      d: "Para que",
+      e: "Qual",
+    },
+    correctAnswer: "a",
+  },
+];
+
+let quizContainer = document.getElementById("quiz");
+let resultsContainer = document.getElementById("results");
+let submitButton = document.getElementById("submit");
+
+generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+
+function generateQuiz(
+  questions,
+  quizContainer,
+  resultsContainer,
+  submitButton
+) {
+  function showQuestions(questions, quizContainer) {
+    // we'll need a place to store the output and the answer choices
+    let output = [];
+    let answers;
+
+    // for each question...
+    for (let i = 0; i < questions.length; i++) {
+      // first reset the list of answers
+      answers = [];
+
+      // for each available answer...
+      for (letter in questions[i].answers) {
+        // ...add an html radio button
+        answers.push(
+          "<label>" +
+            '<input type="radio" class="check" name="question' +
+            i +
+            '" value="' +
+            letter +
+            '">' +
+            letter +
+            ": " +
+            questions[i].answers[letter] +
+            "</label></br>"
+        );
+      }
+
+      // add this question and its answers to the output
+      output.push(
+        '<div class="question">' +
+          questions[i].question +
+          "</div>" +
+          '<div class="answers">' +
+          answers.join("") +
+          "</div>"
+      );
+    }
+
+    // finally combine our output list into one string of html and put it on the page
+    quizContainer.innerHTML = output.join("");
+  }
+
+  function showResults(questions, quizContainer, resultsContainer) {
+    // gather answer containers from our quiz
+    let answerContainers = quizContainer.querySelectorAll(".answers");
+
+    // keep track of user's answers
+    let userAnswer = "";
+    let numCorrect = 0;
+
+    // for each question...
+    for (let i = 0; i < questions.length; i++) {
+      // find selected answer
+      userAnswer = (
+        answerContainers[i].querySelector(
+          "input[name=question" + i + "]:checked"
+        ) || {}
+      ).value;
+
+      // if answer is correct
+      if (userAnswer === questions[i].correctAnswer) {
+        // add to the number of correct answers
+        numCorrect++;
+
+        // color the answers green
+        answerContainers[i].style.color = "#66ff66";
+      }
+      // if answer is wrong or blank
+      else {
+        // color the answers red
+        answerContainers[i].style.color = "#ff4d4d";
+      }
+    }
+
+    // show number of correct answers out of total
+    resultsContainer.innerHTML = numCorrect + " out of " + questions.length;
+  }
+
+  // show questions right away
+  showQuestions(questions, quizContainer);
+
+  // on submit, show results
+  submitButton.onclick = function () {
+    showResults(questions, quizContainer, resultsContainer);
+  };
+}
+
+
+
+----------------- CSS -----------------
+
+
+********************** HEADER CSS ********************
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #0077b5;
+    color: white;
+    font-size: 16px;
+  }
+
+  .header a{
+    height: 3.2rem;
+    transition: opacity 0.2s;
+
+  }
+
+  .header a:hover {
+    opacity: 0.6;
+  }
+********************** FORM CSS ********************
+.form-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-container section .form {
+    width: 100%;
+    max-width: 350px;
+
+}
+.form-container .logo{
+    height: 150px ;
+    width: 150px;
+}
+.form-container section.form form {
+    margin-top: 100px;
+}
+
+.form-container section.form form h1 {
+
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.back-link{
+    display: flex;
+    align-items: center;
+    color: #41414d;
+    margin-top: 40px;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.button {
+    width: 100%;
+    height: 60px;
+    background: #007bff;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+
+}
+
+.button:hover {
+    filter: brightness(90%);
+}
+
+form input {
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    padding-right: 50px;
+    margin-left: 15px;
+}
+
+form textarea {
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-left: 15px;
+
+}
+********************** GLOBAL CSS ********************
+
+
+
+/* BASE */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background: var(--color-background);
+}
+*,
+button,
+input {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
+}
+:root {
+  --color-header: #283e4a;
+  --color-base: #0077b5;
+  --color-input: #e1e9ee;
+  --color-icons: #c7d1d8;
+  --color-footer: #7a8b98;
+  --color-hashtag: #7a8b98;
+  --color-background: #f5f5f5;
+  --color-ad-text: #434649;
+  --color-border: #ddd;
+  --color-panel: #fff;
+  --color-link: #0073b1;
+  --color-black: rgba(0, 0, 0, 0.9);
+  --color-gray: rgba(0, 0, 0, 0.6);
+  --color-separator: rgba(0, 0, 0, 0.15);
+  --color-white: #fff;
+}
+
+/* QUIZZES */
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .content {
+  width: 100%;
+  padding: 96px;
+  background: var(--color-background);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container h2 {
+  color: var(--color-link);
+}
+.container #submit {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: var(--color-link);
+  color: var(--color-input);
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.container #submit:hover {
+  background-color: var(--color-base);
+}
+
+.question {
+  font-weight: 600;
+}
+.answers {
+  margin: 6px 0px;
+}
+.check {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  border-radius: 50%;
+  transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.btn{
+  color: #fff;
+  cursor: pointer;
+  /* // display: block; */
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  
+}
+.button {
+  width: 89px;
+  height: 60px;
+  background: #007bff;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--color-input);
+  font-weight: 700;
+  padding: 22px;
+
+}
+
+
